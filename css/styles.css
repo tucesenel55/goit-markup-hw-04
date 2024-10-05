@@ -254,15 +254,15 @@ img {
   overflow: hidden;
 }
 
-.strategy-box{
+.strategy-box {
   width: 264px;
   height: 112px;
-  background-color: #F4F4FD;
-  border: 1px solid #8E8F99;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
   border-radius: 4px;
 }
 
-.strategy-icon{
+.strategy-icon {
   padding-top: 24px;
   padding-left: 100px;
 }
@@ -341,7 +341,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.our-team-social-media-icons{
+.our-team-social-media-icons {
   width: 264px;
   box-sizing: border-box;
   padding-left: 16px;
@@ -418,7 +418,7 @@ img {
   height: 420px;
 }
 
-.section-our-portfolio-internal-first-line-item:hover{
+.section-our-portfolio-internal-first-line-item:hover {
   box-shadow: 10px 10px 40px black;
 }
 
@@ -449,12 +449,10 @@ img {
   top: 40px;
 }
 
-
-
-.section-our-portfolio-internal-first-line-item:hover{
-    background: #ffffff;
-    box-shadow: 2px 2px 0px 0px #2e2f4214;
-  }
+.section-our-portfolio-internal-first-line-item:hover {
+  background: #ffffff;
+  box-shadow: 2px 2px 0px 0px #2e2f4214;
+}
 
 .section-our-portfolio-internal li {
   /* width: 360px;
@@ -478,7 +476,6 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
 }
-
 
 .our-portfolio-image {
   width: 360px;
@@ -527,9 +524,15 @@ img {
   padding: 100px 0;
 }
 
+.container-section-footer {
+  display: flex;
+  flex-direction: row;
+  height: 112px;
+}
+
 .container-footer-logo-p {
   flex-direction: column;
-  padding-left: 156px;
+  /* padding-left: 156px; */
 }
 
 .container-footer-logo-p a {
@@ -564,9 +567,31 @@ img {
   max-width: 264px;
   color: #f4f4fd;
   flex-direction: row;
-  margin-top: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .footer {
   background-color: #2e2f42;
+}
+
+.footer-social-media {
+  position: relative;
+  left: 540px;
+  width: 208px;
+  height: 80px;
+}
+
+.footer-social-media p {
+  margin-top: 0px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.footer-social-media-icons {
+  display: flex;
+  flex-direction: row;
 }
