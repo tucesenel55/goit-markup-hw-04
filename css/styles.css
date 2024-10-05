@@ -97,33 +97,31 @@ img {
 .nav-menu-list li {
   list-style-type: none;
   display: inline-block;
-  position:relative;
+  position: relative;
   overflow: hidden;
 }
 
-.nav-menu-list li::before{
+.nav-menu-list li::before {
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   bottom: 0;
   left: -100%;
   width: 100%;
   height: 4px;
   transition: 0.4s;
-  background-color:  #404BBF;
+  background-color: #404bbf;
   border-radius: 2px;
-
 }
 
 .nav-menu-list li.active::before,
-.nav-menu-list li:hover::before{
+.nav-menu-list li:hover::before {
   left: 0%;
 }
 
-.nav-menu-list li a{
+.nav-menu-list li a {
   text-decoration: none;
 }
-
 
 /* mail and phone */
 
@@ -173,7 +171,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 .container-efective-solutions {
@@ -228,6 +225,7 @@ img {
 /* section strategy */
 
 .section-strategy {
+  height: 464px;
   display: flex;
   flex-direction: row;
   padding: 120px 0;
@@ -256,8 +254,21 @@ img {
   overflow: hidden;
 }
 
+.strategy-box{
+  width: 264px;
+  height: 112px;
+  background-color: #F4F4FD;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+}
+
+.strategy-icon{
+  padding-top: 24px;
+  padding-left: 100px;
+}
+
 .section-strategy-list-title {
-  margin-top: 0px;
+  margin-top: 8px;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -439,7 +450,6 @@ img {
   border-width: 0px 1px 1px 1px;
   padding: 32px 16px;
   border-top: none;
-
 }
 
 .section-our-portfolio p {
