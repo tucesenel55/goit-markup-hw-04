@@ -240,6 +240,10 @@ img {
   padding: 120px 0;
 }
 
+.container-section-strategy-list{
+  width: 1440px;
+}
+
 .section-strategy-list {
   display: flex;
   gap: 24px;
@@ -247,7 +251,8 @@ img {
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  height: 104px;
+  height: 224px;
+  width: 1128px;
 }
 
 .visually-hidden {
