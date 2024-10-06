@@ -88,6 +88,9 @@ img {
   font-size: 16px;
   line-height: 24px;
   align-items: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 
 .nav-menu-list a:hover {
@@ -140,6 +143,9 @@ img {
   display: flex;
   gap: 40px;
   padding-left: 332px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 
 .nav-address-list a:hover {
@@ -215,9 +221,12 @@ img {
   line-height: 24px;
   cursor: pointer;
   box-sizing: border-box;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
 
-.section-efective-solutions-button:hover {
+.section-efective-solutions-button-button:hover {
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -260,11 +269,12 @@ img {
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  gap: 30px;
 }
 
 .strategy-icon {
-  padding-top: 24px;
-  padding-left: 100px;
+  /* padding-top: 24px;
+  padding-left: 100px; */
 }
 
 .section-strategy-list-title {
@@ -342,14 +352,26 @@ img {
 }
 
 .our-team-social-media-icons {
+  position: relative;
+  bottom: 1px;
   width: 264px;
-  box-sizing: border-box;
-  padding-left: 16px;
-  padding-right: 16px;
+  height: 10px;
   display: flex;
-  flex-direction: row;
-  gap: 24px;
+  justify-content: center;
+  gap: 20px;
 }
+
+.social-media-icons {
+  fill: #4d5ae5;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
+}
+
+.social-media-icons:hover {
+  fill: #404bbf;
+}
+
 .item-name-title {
   padding: 32px 0;
 }
@@ -412,7 +434,9 @@ img {
   position: relative;
   display: flex;
   flex-direction: column;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: box-shadow;
   list-style-type: none;
   width: 360px;
   height: 420px;
@@ -420,6 +444,9 @@ img {
 
 .section-our-portfolio-internal-first-line-item:hover {
   box-shadow: 10px 10px 40px black;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: box-shadow;
 }
 
 .section-portfolio-hover {
@@ -573,6 +600,17 @@ img {
 
 .footer {
   background-color: #2e2f42;
+}
+
+.footer-media-icons {
+  fill: #4d5ae5;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
+}
+
+.footer-media-icons:hover {
+  fill: #31d0aa;
 }
 
 .footer-social-media {
